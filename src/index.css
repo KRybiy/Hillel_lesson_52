@@ -1,0 +1,196 @@
+button {
+  margin: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toasts-container button:hover {
+  background-color: #0056b3;
+}
+
+.custom-toast-container {
+  margin-top: 20px;
+}
+
+.custom-toast-content {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.custom-toast-content h4 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.custom-toast-content p {
+  margin: 4px 0 0;
+  font-size: 0.9em;
+}
+
+.tooltip-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.tooltip-item {
+  display: inline-block;
+  padding: 30px 20px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 10px;
+  border: #000 solid 1px;
+}
+
+.tooltip-item:hover {
+  background-color: #e0e0e0;
+  color: #000;
+  cursor: pointer;
+}
+
+.countup-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.start-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #0056b3;
+}
+
+.countup-wrapper {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.modal p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.modal button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.modal button:hover {
+  background-color: #0056b3;
+}
+
+/* General styles for the form container */
+.payment-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+/* Credit card */
+.card-container {
+  margin-bottom: 20px;
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.error-message {
+  color: #d9534f;
+  font-size: 0.875em;
+  margin: 0;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  text-align: center;
+  margin: 20px;
+}
+
+.success-message h2 {
+  color: #28a745;
+}
+
+.success-message p {
+  color: #6c757d;
+}
